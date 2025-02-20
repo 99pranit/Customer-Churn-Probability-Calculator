@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
-import xgboost as xgb
 from customer_data_cleaning import clean_data
+import xgboost as xgb
 
 # Load pre-trained XGBoost model
 model = xgb.XGBClassifier()
